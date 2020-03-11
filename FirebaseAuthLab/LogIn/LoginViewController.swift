@@ -70,7 +70,7 @@ class LoginViewController: UIViewController {
   }
   
   private func navigateToProfileview() {
-    UIViewController.showViewController(storyboardName: "", viewControllerID: "")
+    UIViewController.showViewController(storyboardName: "Profile", viewControllerID: "ProfileViewController")
   }
   
   private func loginFlow(email: String, passowrd: String) {
